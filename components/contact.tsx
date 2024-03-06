@@ -69,7 +69,7 @@ const Contact = () => {
 
     return (
         <div className="w-full h-full flex flex-col">
-            <div className="flex pb-12 pt-12 md:pt-2 md:pl-[250px] h-[100px] md:h-[200px] justify-center items-center md:w-[calc(100vw-300px)] font-semibold">
+            <div className="flex md:pt-2 md:pl-[250px] h-[100px] md:h-[200px] justify-center items-center md:w-[calc(100vw-300px)] font-semibold">
                 <h1 className="text-[38px] md:text-[60px] absolute z-10 md:pt-1 pl-2 text-[#666666] dark:text-white">GET IN <span className="text-[#ffb400]">TOUCH</span></h1>
                 <span className="text-[70px] md:text-[110px] text-[#4b4b4b] opacity-10 dark:opacity-40">CONTACT</span>
             </div>
