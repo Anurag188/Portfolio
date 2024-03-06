@@ -15,9 +15,9 @@ import { FaGithub } from "react-icons/fa";
 const Portfolio = () => {
     return (
         <div className="w-full h-full flex flex-col">
-            <div className="flex pt-4 md:pt-2 md:pl-[250px] h-[80px] md:h-[150px] justify-center items-center md:w-[calc(100vw-300px)] font-semibold">
-                <h1 className="text-[35px] md:text-[50px] absolute z-10 md:pt-1 pl-2 text-[#666666] dark:text-white">MY <span className="text-[#ffb400]">PORTFOLIO</span></h1>
-                <span className="text-[70px] md:text-[110px] text-[#4b4b4b] opacity-10 dark:opacity-40">WORKS</span>
+            <div className="flex md:pt-2 md:pl-[250px] h-[60px] md:h-[150px] justify-center items-center md:w-[calc(100vw-300px)] font-semibold">
+                <h1 className="text-[30px] md:text-[50px] absolute z-10 md:pt-1 pl-2 text-[#666666] dark:text-white">MY <span className="text-[#ffb400]">PORTFOLIO</span></h1>
+                <span className="text-[60px] md:text-[110px] text-[#4b4b4b] opacity-10 dark:opacity-40">WORKS</span>
             </div>
 
             <div className="flex flex-col gap-y-10 m-y-12 md:gap-y-0 md:pl-[160px] md:w-[calc(100vw-300px)] my-[20px] md:my-0 overflow-auto text-[#ffb400] ">

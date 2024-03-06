@@ -69,9 +69,9 @@ const Contact = () => {
 
     return (
         <div className="w-full h-full flex flex-col">
-            <div className="flex md:pt-2 md:pl-[250px] h-[100px] md:h-[200px] justify-center items-center md:w-[calc(100vw-300px)] font-semibold">
-                <h1 className="text-[38px] md:text-[60px] absolute z-10 md:pt-1 pl-2 text-[#666666] dark:text-white">GET IN <span className="text-[#ffb400]">TOUCH</span></h1>
-                <span className="text-[70px] md:text-[110px] text-[#4b4b4b] opacity-10 dark:opacity-40">CONTACT</span>
+            <div className="flex md:pt-2 md:pl-[250px] h-[60px] md:h-[200px] justify-center items-center md:w-[calc(100vw-300px)] font-semibold">
+                <h1 className="text-[32px] md:text-[60px] absolute z-10 md:pt-1 pl-2 text-[#666666] dark:text-white">GET IN <span className="text-[#ffb400]">TOUCH</span></h1>
+                <span className="text-[55px] md:text-[110px] text-[#4b4b4b] opacity-10 dark:opacity-40">CONTACT</span>
             </div>
 
             <div className='flex flex-wrap gap-4 items-center justify-center text-[#666666] dark:text-white md:ml-[200px] md:mt-[50px] overflow-auto'>
@@ -93,7 +93,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex md:w-[650px] m-6">
-                    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-wrap gap-x-12 gap-y-6">
+                    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-wrap gap-x-12 gap-y-6 justify-center">
                         <Input {...register('name')} disabled={isSubmitting} type="text" placeholder="YOUR NAME" className=" focus-visible:ring-0 focus-visible:ring-offset-0 md:w-[300px] h-[48px] border-[1px] focus:border-[#ffb400] rounded-full  dark:bg-[#4b4b4b] dark:bg-opacity-40 pl-6" required />
                         <Input  {...register('email')} disabled={isSubmitting} type="email" placeholder="YOUR EMAIL" className=" focus-visible:ring-0 focus-visible:ring-offset-0 md:w-[300px] h-[48px] border-[1px] focus:border-[#ffb400] rounded-full dark:bg-[#4b4b4b] dark:bg-opacity-40 pl-6" required />
                         <Input  {...register('subject')} disabled={isSubmitting} type="text" placeholder="YOUR SUBJECT" className=" focus-visible:ring-0 focus-visible:ring-offset-0 md:w-[650px] h-[48px] border-[1px] focus:border-[#ffb400] rounded-full dark:bg-[#4b4b4b] dark:bg-opacity-40 pl-6" required />

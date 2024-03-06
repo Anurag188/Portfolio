@@ -43,12 +43,12 @@ const Skills = () => {
 
     return (
         <div className="w-full h-full flex flex-col">
-            <div className="flex pt-2 md:pl-[250px] h-[100px] md:h-[200px] justify-center items-center md:w-[calc(100vw-300px)] font-semibold ">
-                <h1 className="text-[45px] md:text-[56px] absolute z-10 md:pt-1 pl-2 text-[#666666] dark:text-white">SKILL <span className="text-[#ffb400]">SET</span></h1>
-                <span className="text-[60px] md:text-[95px] text-[#4b4b4b] opacity-10 dark:opacity-40">EXPERTISE</span>
+            <div className="flex md:pl-[250px] h-[60px] md:h-[200px] justify-center items-center md:w-[calc(100vw-300px)] font-semibold ">
+                <h1 className="text-[35px] md:text-[56px] absolute z-10 md:pt-1 pl-2 text-[#666666] dark:text-white">SKILL <span className="text-[#ffb400]">SET</span></h1>
+                <span className="text-[50px] md:text-[95px] text-[#4b4b4b] opacity-10 dark:opacity-40">EXPERTISE</span>
             </div>
 
-            <div ref={ref} className='flex flex-col md:ml-[100px] gap-20 py-8 md:pt-[100px] items-center h-full text-[#666666] dark:text-white overflow-auto '>
+            <div ref={ref} className='flex flex-col md:ml-[100px] gap-20 my-4 md:pt-[100px] items-center h-full text-[#666666] dark:text-white overflow-auto '>
                 <div className='flex flex-wrap md:items-center text-[24px] gap-8'>
                     <h1 className='w-30 font-bold'>FRONTEND : </h1>
                     {renderList(frontend)}
