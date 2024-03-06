@@ -12,9 +12,9 @@ const Home = () => {
             </div>
             <div className="my-[40px] w-full md:ml-[170px] text-[25px] md:text-[42px] font-semibold flex flex-col items-center">
 
-                <div className="flex flex-col md:flex-row gap-x-6"><BsDashLg size={45} className="opacity-0 md:opacity-100 mt-2 text-[#ffb400]" /><span className="text-[#ffb400]">I'M ANURAG AGARWAL.</span><br /></div>
-                <div className="text-[#666666] dark:text-white">WEB DEVELOPER
-                </div>
+                <span className="text-[#ffb400]">I'M ANURAG AGARWAL.</span><br />
+                <span className="text-[#666666] dark:text-white">WEB DEVELOPER
+                </span>
                 <br />
                 <div className="ml-8 text-start dark:text-white text-gray-600 text-[15px] max-w-[600px] md:text-[18px] font-normal m-2 leading-8 md:leading-10">
                     I am software & full-stack web developer focused on crafting clean & user-friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
