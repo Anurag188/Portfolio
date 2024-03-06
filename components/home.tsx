@@ -10,13 +10,10 @@ const Home = () => {
                 <div className="bg-black"></div>
                 <Image src="/pic.jpg" alt="" width="200" height="300" className="w-[200px] h-[200px] object-scale-down md:object-cover md:min-w-[300px] md:w-[1100px] md:h-[900px] ml-8 md:rounded-3xl rounded-full border-4 border-[#292929] md:border-none bg-black" />
             </div>
-            <div className="my-[40px] w-full md:ml-[170px] text-[25px] md:text-[42px] font-semibold flex flex-col items-center">
-
-                <span className="text-[#ffb400]">I'M ANURAG AGARWAL.</span><br />
-                <span className="text-[#666666] dark:text-white">WEB DEVELOPER
-                </span>
-                <br />
-                <div className="ml-8 text-start dark:text-white text-gray-600 text-[15px] max-w-[600px] md:text-[18px] font-normal m-2 leading-8 md:leading-10">
+            <div className="my-[40px] w-full md:ml-[170px] text-[25px] md:text-[42px] font-semibold flex flex-col items-center dark:text-white text-[#666666]">
+                <span className="text-[#ffb400]">I'M ANURAG AGARWAL.</span>
+                WEB DEVELOPER
+                <div className="ml-8 text-star text-[15px] max-w-[600px] md:text-[18px] font-normal m-2 leading-8 md:leading-10">
                     I am software & full-stack web developer focused on crafting clean & user-friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
                 </div>
 
