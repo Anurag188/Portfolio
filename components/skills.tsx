@@ -43,9 +43,9 @@ const Skills = () => {
 
     return (
         <div className="w-full h-full flex flex-col">
-            <div className="flex pt-2 md:pl-[250px] h-[150px] md:h-[200px] justify-center items-center md:w-[calc(100vw-300px)] font-semibold ">
-                <h1 className="text-[35px] md:text-[56px] absolute z-10 md:pt-1 pl-2 text-[#666666] dark:text-white">SKILL <span className="text-[#ffb400]">SET</span></h1>
-                <span className="text-[55px] md:text-[95px] text-[#4b4b4b] opacity-10 dark:opacity-40">EXPERTISE</span>
+            <div className="flex pt-2 md:pl-[250px] h-[100px] md:h-[200px] justify-center items-center md:w-[calc(100vw-300px)] font-semibold ">
+                <h1 className="text-[45px] md:text-[56px] absolute z-10 md:pt-1 pl-2 text-[#666666] dark:text-white">SKILL <span className="text-[#ffb400]">SET</span></h1>
+                <span className="text-[60px] md:text-[95px] text-[#4b4b4b] opacity-10 dark:opacity-40">EXPERTISE</span>
             </div>
 
             <div ref={ref} className='flex flex-col md:ml-[100px] gap-20 py-8 md:pt-[100px] items-center h-full text-[#666666] dark:text-white overflow-auto '>

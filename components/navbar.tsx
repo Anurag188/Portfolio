@@ -47,23 +47,23 @@ const NavBar = () => {
           {dark === 'dark' ? <IoSunny size="26" className='text-white' /> : <Moon className='text-gray-500' />}
         </div>
 
-        <TabsTrigger value="home" className="group dark:text-white h-[50px] w-[50px] bg-[#e9ecef] dark:bg-[#414141] md:mt-[160px] hover:w-[130px] hover:bg-[#ffb400] hover:dark:bg-[#ffb400] hover:text-white rounded-full data-[state=active]:dark:bg-[#ffb400] data-[state=active]:bg-[#ffb400] data-[state=active]:text-white md:justify-end">
-          <h1 className="transition-opacity opacity-0 group-hover:opacity-100 text-[20px] mr-10 font-medium">Home</h1>
+        <TabsTrigger value="home" className="group dark:text-white h-[50px] w-[50px] bg-[#e9ecef] dark:bg-[#414141] md:mt-[160px] md:hover:w-[130px] hover:bg-[#ffb400] hover:dark:bg-[#ffb400] hover:text-white rounded-full data-[state=active]:dark:bg-[#ffb400] data-[state=active]:bg-[#ffb400] data-[state=active]:text-white md:justify-end">
+          <h1 className="transition-opacity opacity-0 md:group-hover:opacity-100 text-[20px] mr-10 font-medium">Home</h1>
           <IoHomeSharp size={22} className="absolute" />
         </TabsTrigger>
 
-        <TabsTrigger value="skills" className="group dark:text-white h-[50px] w-[50px] bg-[#e9ecef] dark:bg-[#414141] hover:w-[130px] hover:bg-[#ffb400] hover:dark:bg-[#ffb400] hover:text-white rounded-full data-[state=active]:dark:bg-[#ffb400] data-[state=active]:bg-[#ffb400] data-[state=active]:text-white md:justify-end">
-          <h1 className="transition-opacity opacity-0 group-hover:opacity-100 text-[20px] mr-10 font-medium">Skills</h1>
+        <TabsTrigger value="skills" className="group dark:text-white h-[50px] w-[50px] bg-[#e9ecef] dark:bg-[#414141] md:hover:w-[130px] hover:bg-[#ffb400] hover:dark:bg-[#ffb400] hover:text-white rounded-full data-[state=active]:dark:bg-[#ffb400] data-[state=active]:bg-[#ffb400] data-[state=active]:text-white md:justify-end">
+          <h1 className="transition-opacity opacity-0 md:group-hover:opacity-100 text-[20px] mr-10 font-medium">Skills</h1>
           <FaUser size={22} className="absolute" />
         </TabsTrigger>
 
-        <TabsTrigger value="portfolio" className="group dark:text-white h-[50px] w-[50px] bg-[#e9ecef] dark:bg-[#414141] hover:w-[160px] hover:bg-[#ffb400] hover:dark:bg-[#ffb400] hover:text-white rounded-full data-[state=active]:dark:bg-[#ffb400] data-[state=active]:bg-[#ffb400] data-[state=active]:text-white md:justify-end">
-          <h1 className="transition-opacity opacity-0 group-hover:opacity-100 text-[20px] mr-10 font-medium">Portfolio</h1>
+        <TabsTrigger value="portfolio" className="group dark:text-white h-[50px] w-[50px] bg-[#e9ecef] dark:bg-[#414141] md:hover:w-[160px] hover:bg-[#ffb400] hover:dark:bg-[#ffb400] hover:text-white rounded-full data-[state=active]:dark:bg-[#ffb400] data-[state=active]:bg-[#ffb400] data-[state=active]:text-white md:justify-end">
+          <h1 className="transition-opacity opacity-0 md:group-hover:opacity-100 text-[20px] mr-10 font-medium">Portfolio</h1>
           <FaBriefcase size={22} className="absolute" />
         </TabsTrigger>
 
-        <TabsTrigger value="contact" className="group dark:text-white h-[50px] w-[50px] bg-[#e9ecef] dark:bg-[#414141] hover:w-[150px] hover:bg-[#ffb400] hover:dark:bg-[#ffb400] hover:text-white rounded-full data-[state=active]:dark:bg-[#ffb400] data-[state=active]:bg-[#ffb400] data-[state=active]:text-white md:justify-end">
-          <h1 className="transition-opacity opacity-0 group-hover:opacity-100 text-[20px] mr-10 font-medium">Contact</h1>
+        <TabsTrigger value="contact" className="group dark:text-white h-[50px] w-[50px] bg-[#e9ecef] dark:bg-[#414141] md:hover:w-[150px] hover:bg-[#ffb400] hover:dark:bg-[#ffb400] hover:text-white rounded-full data-[state=active]:dark:bg-[#ffb400] data-[state=active]:bg-[#ffb400] data-[state=active]:text-white md:justify-end">
+          <h1 className="transition-opacity opacity-0 md:group-hover:opacity-100 text-[20px] mr-10 font-medium">Contact</h1>
           <FaComments size={22} className="absolute" />
         </TabsTrigger>
 
