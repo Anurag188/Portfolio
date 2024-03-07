@@ -20,7 +20,7 @@ const Portfolio = () => {
                 <span className="text-[60px] md:text-[110px] text-[#4b4b4b] opacity-10 dark:opacity-40">WORKS</span>
             </div>
 
-            <div className="flex flex-col gap-y-10 m-y-12 md:gap-y-0 md:pl-[160px] md:w-[calc(100vw-300px)] my-[20px] md:my-0 overflow-auto text-[#ffb400] ">
+            <div className="flex flex-col gap-y-10 m-y-12 md:gap-y-0 md:pl-[160px] md:w-[calc(100vw-300px)] my-[20px] md:my-0 overflow-x-hidden overflow-y-auto text-[#ffb400] ">
                 <div className='flex flex-wrap gap-x-20 gap-y-10  md:h-[400px] items-center justify-center'>
 
                     <Dialog>

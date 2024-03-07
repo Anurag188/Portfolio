@@ -41,7 +41,7 @@ const NavBar = () => {
   return (
 
     <>
-      <TabsList className="rounded-none mt-auto md:w-[300px] h-[75px] md:ml-auto md:h-screen flex md:flex-col md:justify-start bg-white dark:bg-[#292929] md:bg-inherit md:dark:bg-inherit gap-y-5 gap-x-6 md:items-end p-10">
+      <TabsList className="rounded-none mt-auto md:w-[100px] h-[75px] md:ml-auto md:h-full flex md:flex-col md:justify-start bg-white dark:bg-[#292929] md:bg-inherit md:dark:bg-inherit gap-y-5 gap-x-6 md:items-end p-10">
 
         <div onClick={toggleTheme} className='bg-[#e9ecef] h-[50px] p-3 cursor-pointer rounded-full dark:bg-[#4b4b4b]'>
           {dark === 'dark' ? <IoSunny size="26" className='text-white' /> : <Moon className='text-gray-500' />}

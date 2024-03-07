@@ -14,10 +14,10 @@ export default function App() {
 
   return (
     <div className="w-screen h-full">
-      <Tabs defaultValue="home" className="flex flex-col md:flex-row h-full w-screen">
-        <TabsContent value="home" className="w-full overflow-auto"><Home /></TabsContent>
+      <Tabs defaultValue="home" className="flex flex-col md:flex-row h-full w-full">
+        <TabsContent value="home" className="w-full overflow-x-hidden overflow-y-auto"><Home /></TabsContent>
         <TabsContent value="skills" className="overflow-auto"><Skills /></TabsContent>
-        <TabsContent value="portfolio" className="overflow-auto"><Portfolio/></TabsContent>
+        <TabsContent value="portfolio" className="overflow-x-hidden overflow-y-auto"><Portfolio/></TabsContent>
         <TabsContent value="contact" className="overflow-auto"><Contact/></TabsContent>
 
         <NavBar />
