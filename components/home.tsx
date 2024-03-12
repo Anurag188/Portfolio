@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { BsDashLg } from "react-icons/bs";
+import Image from "next/image";;
 import { IoMdArrowRoundForward } from "react-icons/io";
 
 const Home = () => {
