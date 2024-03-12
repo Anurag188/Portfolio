@@ -4,7 +4,7 @@ import { IoMdArrowRoundForward } from "react-icons/io";
 
 const Home = () => {
     return (
-        <div className="flex flex-col w-full h-full md:flex-row items-center justify-center overflow-auto justify-between gap-x-4">
+        <div className="flex flex-col w-full h-full md:flex-row items-center justify-center overflow-auto gap-x-4">
             <div className="md:bg-[#ffb400] h-[0px] w-[0px] md:h-[200%] md:w-[100%] left-[-83%] top-[-50%] fixed rotate-[-15deg]"></div>
             <div className="z-10 md:h-full mt-8 md:mt-0 md:p-8">
                 <div className="bg-black"></div>
