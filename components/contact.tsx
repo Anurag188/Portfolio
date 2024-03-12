@@ -74,7 +74,7 @@ const Contact = () => {
                 <span className="text-[55px] md:text-[110px] text-[#4b4b4b] opacity-10 dark:opacity-40">CONTACT</span>
             </div>
 
-            <div className='flex flex-wrap gap-4 items-center justify-center text-[#666666] dark:text-white md:w-[calc(100vw-10px)] md:mt-[20px] overflow-auto'>
+            <div className='flex flex-wrap gap-4 items-center justify-center text-[#666666] dark:text-white md:w-[calc(100vw-100px)] md:mt-[20px] overflow-auto'>
                 <div className="flex flex-col w-[400px] gap-6 m-6">
                     <div className="text-[26px] font-[550]">DON'T BE SHY !</div>
                     <div className="text-[15px]">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</div>
