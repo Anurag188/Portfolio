@@ -6,24 +6,14 @@
 html,body{
   height: 100%;
   width: 100%;
-  direction: ltr;
+  
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
+  display: none;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #111111;
-  border-radius: 5px;
-}
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #111111;
-  border-radius: 5px;
-}
 
 
 
