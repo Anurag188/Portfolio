@@ -69,12 +69,12 @@ const Contact = () => {
 
     return (
         <div className="w-full h-full flex flex-col">
-            <div className="flex md:pt-2 md:pl-[250px] h-[60px] md:h-[200px] justify-center items-center md:w-[calc(100vw-300px)] font-semibold">
+            <div className="flex h-[60px] md:h-[150px] justify-center items-center md:w-full font-semibold">
                 <h1 className="text-[32px] md:text-[60px] absolute z-10 md:pt-1 pl-2 text-[#666666] dark:text-white">GET IN <span className="text-[#ffb400]">TOUCH</span></h1>
                 <span className="text-[55px] md:text-[110px] text-[#4b4b4b] opacity-10 dark:opacity-40">CONTACT</span>
             </div>
 
-            <div className='flex flex-wrap gap-4 items-center justify-center text-[#666666] dark:text-white md:ml-[200px] md:mt-[50px] overflow-auto'>
+            <div className='flex flex-wrap gap-4 items-center justify-center text-[#666666] dark:text-white md:w-[calc(100vw-10px)] md:mt-[20px] overflow-auto'>
                 <div className="flex flex-col w-[400px] gap-6 m-6">
                     <div className="text-[26px] font-[550]">DON'T BE SHY !</div>
                     <div className="text-[15px]">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</div>

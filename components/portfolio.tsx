@@ -15,17 +15,17 @@ import { FaGithub } from "react-icons/fa";
 const Portfolio = () => {
     return (
         <div className="w-full h-full flex flex-col">
-            <div className="flex md:pt-2 md:pl-[250px] h-[60px] md:h-[150px] justify-center items-center md:w-[calc(100vw-300px)] font-semibold">
+            <div className="flex md:pt-2 h-[60px] md:h-[120px] justify-center items-center md:w-full font-semibold">
                 <h1 className="text-[30px] md:text-[50px] absolute z-10 md:pt-1 pl-2 text-[#666666] dark:text-white">MY <span className="text-[#ffb400]">PORTFOLIO</span></h1>
                 <span className="text-[60px] md:text-[110px] text-[#4b4b4b] opacity-10 dark:opacity-40">WORKS</span>
             </div>
 
-            <div className="flex flex-col gap-y-10 m-y-12 md:gap-y-0 md:pl-[160px] md:w-[calc(100vw-300px)] my-[20px] md:my-0 overflow-x-hidden overflow-y-auto text-[#ffb400] ">
-                <div className='flex flex-wrap gap-x-20 gap-y-10  md:h-[400px] items-center justify-center'>
+            <div className="flex flex-col gap-y-10 md:gap-y-4 md:w-[calc(100vw-100px)] my-[20px] md:my-0 overflow-x-hidden overflow-y-auto text-[#ffb400] ">
+                <div className='flex flex-wrap gap-x-20 gap-y-10  md:h-[300px] items-center justify-center'>
 
                     <Dialog>
                         <DialogTrigger>
-                            <button className="w-[300px] h-[300px]  md:w-[350px] md:h-[350px] rounded-lg bg-[url('../public/chatapp.jpg')] bg-contain bg-no-repeat  hover:bg-[#ffb400]">
+                            <button className="w-[300px] h-[300px]  md:w-[260px] md:h-[260px] rounded-lg bg-[url('../public/chatapp.jpg')] bg-contain bg-no-repeat  hover:bg-[#ffb400]">
                                 <div className="w-full h-full inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700 ease-in-out rounded-lg font-semibold flex items-center justify-center text-[28px] pb-[40px] bg-transparent hover:bg-opacity-50 backdrop-blur-lg">Chat Application</div>
                             </button>
                         </DialogTrigger>
@@ -41,13 +41,13 @@ const Portfolio = () => {
                                 <div className="flex gap-x-2 items-center"><HiExternalLink className="" size={20} /> Production: <a href="https://chat-app-89uf.onrender.com/" className="text-[#ffb400] underline" >chat-app-89uf.onrender.com</a></div>
 
                             </div>
-                            <div className="w-[300px] h-[300px]  md:w-[450px] md:h-[450px] rounded-lg bg-[url('../public/chatapp.jpg')] bg-contain bg-no-repeat"></div>
+                            <div className="w-[300px] h-[300px] md:w-[450px] md:h-[450px] rounded-lg bg-[url('../public/chatapp.jpg')] bg-contain bg-no-repeat"></div>
                         </DialogContent>
                     </Dialog>
 
                     <Dialog>
                         <DialogTrigger>
-                            <button className="w-[300px] h-[300px]  md:w-[350px] md:h-[350px] rounded-lg bg-[url('../public/discord.jpg')] bg-contain bg-no-repeat  hover:bg-[#ffb400]">
+                            <button className="w-[300px] h-[300px]  md:w-[260px] md:h-[260px] rounded-lg bg-[url('../public/discord.jpg')] bg-contain bg-no-repeat  hover:bg-[#ffb400]">
                                 <div className="w-full h-full inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700 ease-in-out rounded-lg font-semibold flex items-center justify-center text-[28px] pb-[40px] bg-transparent hover:bg-opacity-50 backdrop-blur-lg">Discord Clone</div>
                             </button>
                         </DialogTrigger>
@@ -68,11 +68,11 @@ const Portfolio = () => {
                     </Dialog>
 
                 </div>
-                <div className='flex flex-wrap gap-x-20 gap-y-10 md:h-[400px] items-center justify-center'>
+                <div className='flex flex-wrap gap-x-20 gap-y-10 md:h-[300px] items-center justify-center'>
 
                     <Dialog>
                         <DialogTrigger>
-                            <button className="w-[300px] h-[300px]  md:w-[350px] md:h-[350px] rounded-lg bg-[url('../public/e-commerce.jpg')] bg-contain bg-no-repeat  hover:bg-[#ffb400]">
+                            <button className="w-[300px] h-[300px]  md:w-[260px] md:h-[260px] rounded-lg bg-[url('../public/e-commerce.jpg')] bg-contain bg-no-repeat  hover:bg-[#ffb400]">
                                 <div className="w-full h-full inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700 ease-in-out rounded-lg font-semibold flex items-center justify-center text-[28px] pb-[40px] bg-transparent hover:bg-opacity-50 backdrop-blur-lg">E-Commerce<br/> Website</div>
                             </button>
                         </DialogTrigger>
@@ -94,7 +94,7 @@ const Portfolio = () => {
 
                     <Dialog>
                         <DialogTrigger>
-                            <button className="w-[300px] h-[300px]  md:w-[350px] md:h-[350px] rounded-lg bg-[url('../public/music.jpeg')] bg-contain bg-no-repeat  hover:bg-[#ffb400]">
+                            <button className="w-[300px] h-[300px]  md:w-[260px] md:h-[260px] rounded-lg bg-[url('../public/music.jpeg')] bg-contain bg-no-repeat  hover:bg-[#ffb400]">
                                 <div className="w-full h-full inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700 ease-in-out rounded-lg font-semibold flex items-center justify-center text-[28px] pb-[40px] bg-transparent hover:bg-opacity-50 backdrop-blur-lg">Music Streaming <br/> App</div>
                             </button>
                         </DialogTrigger>
